@@ -7,7 +7,7 @@ class Solution {
             if(n[i]!=n[i+1]){
                 ans++;
                 n[index]=n[i+1];
-                index++;
+                index++; // Incrementing index by 1
             }
         }
         return ans;
